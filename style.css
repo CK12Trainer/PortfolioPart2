@@ -1,0 +1,50 @@
+body {
+  position: relative;
+}
+
+/* optional style active link */
+.navbar-dark .navbar-nav .nav-link.active {
+    background-color: grey;
+}
+
+#section1 { padding-top:5%;  padding-bottom:5%;  color: #32312E;  background-color: #d8f3dc;}
+#section2 { padding-top:5%;  padding-bottom:5%;  color: #32312E;  background-color: #95d5b2;}
+#section3 { padding-top:5%;  padding-bottom:5%;  color: #fff;  background-color: #52b788;}
+#section4 { padding-top:5%;  padding-bottom:5%;  color: #fff;  background-color: #1b4332;}
+#section51 { padding-top:5%;  padding-bottom:5%;  color: #fff;  background-color: #40916c;}
+#section52 { padding-top:5%;  padding-bottom:5%;  color: #fff;  background-color: #081c15;}
+
+.content{
+margin-left: 5%;
+font-size: 1.2em;
+font-family: "Gill Sans", sans-serif;
+align-content: flex-start;
+}
+
+.flex {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.skill-icon {
+	margin-bottom: 5%;
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 75%;
+  height: 50%;
+}
+.skill-icon:hover {
+transform: scale(0.7,1);
+}
+
+.works {
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.channels {
+  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-left: 10%;
+}
